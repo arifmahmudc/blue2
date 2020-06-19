@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header{
+ 	background-color: #121B2A;
+ 	padding: 10px 0;
+}
+.wrapper{
+	width: 80%;
+	/*border: 5px solid white;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 12%;
+	float: left;
+	/*border: 1px solid white;*/
+} 
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	/*border: 1px solid tomato;*/
+	float: right;
+	margin: -10px;
+	/*margin-top: 0px;*/
+	/*margin-bottom: 10px;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	padding: 0px 20px;
+	margin-top: 30px;
+}
+.menu ul li a{
+	text-decoration: none;
+	/*padding: 400;*/
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: normal;
+	transition: .3s;
+	/*margin-top: 5px;*/
+}
+.menu ul li a:hover{
+	color: #0079BC;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../image/banner.jpg);
+	background-repeat: no-repeat;
+/*	-webkit-background-size: cover;
+	-moz-background-size: cover;*/
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+ width: 50%;
+/* border: 1px solid yellow;*/
+ margin-top: 200px;
+ margin-bottom: 80px;
+}
+.b_content h1{
+	font-family: Futura Md BT, sans-serif; 
+	font-weight: 400;
+	font-size: 35px;
+	color: white;
+	text-transform: capitalize;
+	margin: 0;
+}
+.b_content h2{
+	font-family: Futura Md BT, sans-serif; 
+	font-weight: 700;
+	font-size: 38px;
+	color: #0079BC;
+	margin: 0;
+	text-transform: capitalize;
+}
+.b_content p{
+	font-family: Futura Md BT, sans-serif;
+	color: white;
+	margin: 0;
+	/*text-transform: uppercase;*/
+	line-height: 25px;
+/*	letter-spacing: ;
+	word-spacing: ;*/
+}
+.b_content button{
+	width: 220px;
+	height: 50px;
+	margin-top: 20px;
+	font-family: Futura Md BT, sans-serif; 
+	font-weight: 500;
+	font-size: 22px;
+	color: #5A5A5A;
+	/*margin: 0;*/
+	text-transform: uppercase;
+	background-color: white;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .5s;
+}
+.b_content button:focus{
+	outline: 0;
+}
+.b_content button:hover{
+	background-color: #0079BC;
+	color: white;
+}
+/*banner end*/
